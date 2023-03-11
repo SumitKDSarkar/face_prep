@@ -1,0 +1,39 @@
+
+
+.gridDiv{
+  display: grid;
+  width: 50%;
+  margin: auto;
+  margin-top: 1%;
+  grid-template-columns:repeat(4,1fr);
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nameDetails{
+  font-size: large;
+  
+}
+.div{
+display:flex;
+width: 49vw;
+align-items: center;
+justify-content: space-around;
+/* border: 1px solid red; */
+
+/* gap: 20%; */
+}
+.img{
+  border-radius: 50%;
+}
+.homebutton{
+  font-weight: 600;
+  font-size: large;
+}
+.homebutton:hover{
+  cursor: pointer;
+  color: red;
+}
+.loginButton{
+  background-color:blue;
+}
+
